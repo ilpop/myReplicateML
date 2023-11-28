@@ -61,5 +61,12 @@ License
 
 This project is licensed under the MIT License.
 
-![Project Image](out-0.webp)
+# Here's some images generated with the app:
+
+![Project Image 1](out-0.webp)
+
+![Project Image 2](out-1.webp)
+
+![Project Image 3](out-2.webp)
+
 
