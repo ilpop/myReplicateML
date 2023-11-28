@@ -1,0 +1,80 @@
+.body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb))
+  ) rgb(var(--background-start-rgb));
+  font-family: 'your-preferred-font', sans-serif;
+}
+
+.a {
+  margin: 0 0.5em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.p {
+  margin: 0 0.5em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding: 2rem;
+  font-size: 1.3rem;
+  max-width: 96rem;
+  margin: 0 auto;
+  background-color: var(--background-gray); /* Grey background color for container */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.form input {
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.form button {
+  width: 100%;
+  padding: 0.75em;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.imageWrapper {
+  width: 100%;
+  max-width: 800px; /* Adjust the max-width as needed */
+  aspect-ratio: 1 / 1;
+  margin: 2rem auto; /* Add some margin to the image wrapper */
+  position: relative;
+}
+
+/* Adjust the max-width property of the Image component */
+.imageWrapper Image {
+  .imageWrapper {
+    width: 50%; /* Adjust the width as needed */
+  } /* This will make the image responsive within its container */
+}
+
+/* Simplify the media query */
+@media (min-width: 600px) {
+  .form, .imageWrapper {
+    max-width: 400px;
+  }
+}
