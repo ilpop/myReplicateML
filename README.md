@@ -3,8 +3,9 @@
 # React Image Prediction App
 
 This is a React application that allows users to generate images based on a given prompt using the SDXL model from Replicate.
-Getting Started
-Prerequisites
+# Getting Started
+
+# Prerequisites
 
 Node.js (v14.0.0 or higher)
 npm (v6.0.0 or higher)
