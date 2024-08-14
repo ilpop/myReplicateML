@@ -4,7 +4,7 @@
 
 This is a React application that allows users to generate images based on a given prompt using the SDXL model from Replicate.
 # Getting Started
-
+You can test the app here: https://dream-with-sdxl.vercel.app/
 # Prerequisites
 
 Node.js (v14.0.0 or higher)
